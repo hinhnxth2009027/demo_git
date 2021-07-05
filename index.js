@@ -77,6 +77,3 @@ $('#cuongvalidate').validate({
         }
     }
 })
-
-
-
