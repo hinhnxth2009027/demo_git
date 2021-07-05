@@ -76,3 +76,4 @@ $('#cuongvalidate').validate({
         }
     }
 })
+//thangcuongtoingu
