@@ -8,12 +8,12 @@ btn.onclick = function () {
         var key = makeid(20)
         di.innerHTML += `<div id="${key}">
         <p>${input.value} </p>
-        <span onclick="delete_content(key)">&times;</span>
+        <span slot="${key}" onclick="delete_content(this.slot)">&times;</span>
     </div>`
     }
 }
 function delete_content(abc) {
-    alert(1)
+    document.getElementById(`${abc}`).remove()
 }
 function makeid(length) {
     var result           = '';
