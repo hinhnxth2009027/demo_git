@@ -10,7 +10,32 @@
 
 $('#validate').validate({
     rules:{
-        fullname: {
+        fullname: {},
+        age:{
+            required: true,
+        },
+        phone:{
+            required:true,
+            minLength: 9,
+            maxlength: 12
+        }
+    },
+    messages:{
+        fullname:{
+            required:'khong duoc de trong',
+            minlength: 'khong duoc nho hon 5 ky tu',
+            maxlength: 'khong duoc nhueu hon 20 ky tu',
+        },
+        age:{
+            required:'khong duoc de trong',
+        },
+        phone:{
+            required:'khong duoc de trong',
+            minlength: 'khong duoc nho hon 9 ky tu',
+            maxlength: 'khong duoc nhueu hon 12 ky tu',
+        }
+    }
+})
 
 $('#cuongvalidate').validate({
     rules:{
@@ -49,29 +74,5 @@ $('#cuongvalidate').validate({
     }
 })
 
-        age:{
-            required: true,
-        },
-        phone:{
-            required:true,
-            minLength: 9,
-            maxlength: 12
-        }
-    },
-    messages:{
-        fullname:{
-            required:'khong duoc de trong',
-            minlength: 'khong duoc nho hon 5 ky tu',
-            maxlength: 'khong duoc nhueu hon 20 ky tu',
-        },
-        age:{
-            required:'khong duoc de trong',
-        },
-        phone:{
-            required:'khong duoc de trong',
-            minlength: 'khong duoc nho hon 9 ky tu',
-            maxlength: 'khong duoc nhueu hon 12 ky tu',
-        }
-    }
-})
+
 
