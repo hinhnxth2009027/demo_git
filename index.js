@@ -76,3 +76,5 @@ $('#cuongvalidate').validate({
         }
     }
 })
+
+// dat dien vien
