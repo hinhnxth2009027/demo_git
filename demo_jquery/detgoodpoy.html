@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Style/bootstrap.min.css">
+    <link rel="stylesheet" href="detgutpoy.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container-fluid row">
+    <div class="col-3">
+        <h1>Add Product</h1>
+        <form action="#" >
+            <div class="form-group">
+                <label for="productname">product name</label>
+                <input class="form-control" id="productname" type="text">
+            </div>
+            <div class="form-group">
+                <label for="thumbnail">thumbnail</label>
+                <input class="form-control" id="thumbnail" type="text">
+            </div>
+            <div class="form-group">
+                <label for="price">price</label>
+                <input class="form-control" id="price" type="text">
+            </div>
+            <div class="form-group">
+                <button id="add" class="btn btn-primary form-control">add product</button>
+            </div>
+            <div class="form-group">
+                <button type="reset" class="btn btn-danger form-control">remove content</button>
+            </div>
+        </form>
+    </div>
+    <div id="Products" class="col-9 row">
+    </div>
+</div>
+<script src="../Script/bootstrap.min.js"></script>
+<script src="../Script/jquery.validate.min.js"></script>
+<script src="../Script/jquery.min.js"></script>
+<script src="../Script/jquery.slim.min.js"></script>
+<script src="../Script/popper.min.js"></script>
+<script src="detgoodpoy.js"></script>
+</body>
+</html>
