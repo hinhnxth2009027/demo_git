@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Style/bootstrap.min.css">
+    <link rel="stylesheet" href="cuongnm.css">
+</head>
+<body>
+<div class="container-fluid row">
+    <div class="col-3">
+        <h1>Add Product</h1>
+        <form action="#">
+            <div class="form-group">
+                <label for="productname">Product name</label>
+                <input class="form-control" id="productname" type="text">
+            </div>
+            <div class="form-group">
+                <label for="thumbnail">Thumbnail</label>
+                <input class="form-control" id="thumbnail" type="text">
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input class="form-control" id="price" type="text">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary form-control" id="btnaddproduct">Add product</button>
+            </div>
+            <div class="form-group">
+                <button type="reset" class="btn btn-danger form-control">Remove content</button>
+            </div>
+        </form>
+    </div>
+    <div id="showproducts" class="col-9 row">
+
+    </div>
+</div>
+<script src="../Script/bootstrap.min.js"></script>
+<script src="../Script/jquery.min.js"></script>
+<script src="../Script/jquery.slim.min.js"></script>
+<script src="../Script/jquery.validate.min.js"></script>
+<script src="../Script/popper.min.js"></script>
+<script src="cuongnm.js"></script>
+</body>
+</html>
