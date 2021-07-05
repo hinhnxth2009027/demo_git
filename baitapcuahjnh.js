@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             }
         }
+        value.value = ''
     })
 
     function randomkey(length) {
