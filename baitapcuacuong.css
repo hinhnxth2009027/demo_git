@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.register {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+input{
+    height: 40px;
+    width: 800px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+}
+input:focus, button:focus{
+    outline: none;
+}
+button:hover{
+    background-color: green;
+}
+.register1>div{
+    position: relative;
+    width: 80%;
+    height: 50px;
+    border: dimgrey 2px solid;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.register1{
+    display: flex;
+    width: 100%;
+   justify-content: center;
+    flex-wrap: wrap;
+}
+.register1 span{
+    position: absolute;
+    right: 10px;
+    font-size: 60px;
+    color: red;
+    cursor: pointer;
+}
+.register1 p{
+    font-size: 18px;
+    font-family: sans-serif;
+}
