@@ -10,7 +10,11 @@
 
 $('#validate').validate({
     rules:{
-        fullname: {},
+        fullname: {
+            required: true,
+            minlength: 5,
+            maxlength: 20,
+        },
         age:{
             required: true,
         },
