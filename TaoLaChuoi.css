@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+input{
+    height: 40px;
+    width: 500px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+button{
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    background: white;
+    transition: 0.5s;
+}
+input:focus, button:focus{
+    outline: none;
+}
+button:hover{
+    background: red;
+}
+.hienra{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.hienra>div{
+    width: 70%;
+    height: 70px;
+    border: black 1px solid;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 6px;
+    position: relative;
+}
+.hienra span{
+    position: absolute;
+    right: 20px;
+    font-size: 50px;
+    color: black;
+    cursor: pointer;
+}
+.hienra p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
