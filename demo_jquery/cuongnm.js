@@ -33,9 +33,6 @@ document.addEventListener('DOMContentLoaded', function (){
                 $(`#sp${this.slot}`).remove()
                 products.splice(Number(this.slot),1)
             })
-
-
-
         }
     })
 })
