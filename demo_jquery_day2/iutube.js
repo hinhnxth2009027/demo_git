@@ -32,5 +32,6 @@ document.addEventListener('DOMContentLoaded',function () {
     })
 })
 function play(id) {
-    $('iframe').attr('src', `https://www.youtube.com/embed/${id}`);
+    $('iframe').attr('src', `https://www.youtube.com/embed/${id}?autoplay=1`);
 }
+    
