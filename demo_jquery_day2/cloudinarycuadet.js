@@ -47,4 +47,28 @@ document.addEventListener('DOMContentLoaded', function () {
         data.append('file',file)
         xhr.send(data)
     })
+
+
+
+    var data_users = document.querySelectorAll('.form_user')
+    data_users[0].onkeyup = function (){
+        $('.show_name').html(data_users[0].value)
+    }
+    data_users[1].onkeyup = function (){
+        $('.show_nick_name').html(data_users[1].value)
+    }
+    data_users[2].onkeyup = function (){
+        $('.det1').html(data_users[2].value)
+    }
+
+    data_users[3].onkeyup = function (){
+        $('.det2').html(data_users[3].value)
+    }
+
+    data_users[4].onkeyup = function (){
+        $('.det3').html(data_users[4].value)
+    }
+
+
+
 })
