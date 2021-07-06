@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Style/bootstrap.min.css">
+    <link rel="stylesheet" href="hjnh_demo_youtube_api.css">
+</head>
+<body>
+
+<div class="content_youtube container-fluid">
+    <div class="col-12 d-flex justify-content-center">
+        <div class="col-6 row p-3">
+            <div class="col-11 form-group">
+                <input type="text" placeholder="Please enter keyword" class="form-control">
+            </div>
+            <div class="col-1 form-group">
+                <button class="btn btn-danger">Search</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 row show_content">
+        <div class="col-9 show_video">
+            <iframe id="video" style="height: 100%;width: 100%" src="https://www.youtube.com/embed/b_fh-xECZ5I"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+        <div id="show_data_yiutube" class="col-3">
+
+
+
+        </div>
+    </div>
+</div>
+
+<script src="../Script/bootstrap.min.js"></script>
+<script src="../Script/jquery.min.js"></script>
+<script src="hjnh_demo_youtube_api.js"></script>
+</body>
+</html>
