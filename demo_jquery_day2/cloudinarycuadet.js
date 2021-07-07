@@ -159,6 +159,9 @@ document.addEventListener('DOMContentLoaded', function () {
         data.append('file', file)
         xhr.send(data)
     })
+
+
+
     $('input[name="Ten"]').keyup(function () {
         $('.show_name').text(`${$('input[name="Ten"]').val()}`)
     })
@@ -174,4 +177,5 @@ document.addEventListener('DOMContentLoaded', function () {
     $('input[name="sdt"]').keyup(function () {
         $('.det').text(`${$('input[name="sdt"]').val()}`)
     })
+
 })
