@@ -70,3 +70,7 @@ input {
 .det {
     transform: translateX(-15px);
 }
+.error{
+    color: red;
+    font-size: 14px;
+}

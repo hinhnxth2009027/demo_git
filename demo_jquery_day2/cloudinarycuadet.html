@@ -11,53 +11,56 @@
 </head>
 <body>
 <div class="container-fluid row">
-    <div class="col-4">
-        <h1>Đăng Ký</h1>
-        <input class="avatar" type="file">
-        <input class="cover_photo" type="file">
-        <div class="form-group">
-            <input class=" form_user form-control" type="text" placeholder="Tên">
-            <input class=" form_user form-control" type="text" placeholder="Biệt Danh">
-            <input class=" form_user form-control" type="text" placeholder="Tiểu Sử">
-            <input class=" form_user form-control" type="text" placeholder="Email">
-            <input class=" form_user form-control" type="text" placeholder="Số Điện Thoại">
+        <div class="col-4">
+            <h1>Đăng Ký</h1>
+            <form id="dat" action="#">
+                <input class="avatar" type="file">
+                <input class="cover_photo" type="file">
+                <div class="form-group">
+                    <input name="Ten" class=" form_user form-control" type="text" placeholder="Tên">
+                    <input name="Bietdanh" class=" form_user form-control" type="text" placeholder="Biệt Danh">
+                    <input name="Tieusu" class=" form_user form-control" type="text" placeholder="Tiểu Sử">
+                    <input name="Email" class=" form_user form-control" type="text" placeholder="Email">
+                    <input name="sdt" class=" form_user form-control" type="text" placeholder="Số Điện Thoại">
+                </div>
+                <div>
+                    <p>Chọn avatar</p>
+                    <p>Chọn cover photo</p>
+                </div>
+                <div class="row">
+                    <div class="chon_avatar">+</div>
+                    <div class="chon_cover_photo">+</div>
+                </div>
+                <div class="form-group">
+                    <button class="form-control btn btn-danger mt-4">Create</button>
+                </div>
+            </form>
         </div>
-        <div>
-            <p>Chọn avatar</p>
-            <p>Chọn cover photo</p>
+        <div class="col-8">
+            <div class="col-12">
+                <img class="dat"
+                     src="https://img2.thuthuatphanmem.vn/uploads/2018/12/25/anh-gai-xinh-hotgirl-kim-khanh_012904504.jpg">
+            </div>
+            <div class="col-12 d-flex justify-content-center anhdaidien">
+                <img class="show_avatar"
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEloLDavBaMa2-tbPhI8P15_HEqjTOludhpBrpDrivxxuLhbiFaEGpXM4U0LEIFhwTsI8&usqp=CAU">
+            </div>
+            <div class="col-12 d-flex justify-content-center detbong">
+                <h2 ><span class="show_name">Lê Thị Đạt</span> (<span class="show_nick_name">☺Bống♥</span>)</h2>
+            </div>
+            <div class="col-12 d-flex justify-content-center detbong">
+                <p class="det1">Anh Là Good Boy</p>
+            </div>
+            <div class="col-12 d-flex justify-content-center detbong">
+                <p class="det2">uinhieu123@gmail.com</p>
+            </div>
+            <div class="col-12 d-flex justify-content-center detbong">
+                <p class="det">0388852709</p>
+            </div>
         </div>
-        <div class="row">
-            <div class="chon_avatar">+</div>
-            <div class="chon_cover_photo">+</div>
-        </div>
-        <div class="form-group">
-            <button class="form-control btn btn-danger mt-4">Create</button>
-        </div>
-    </div>
-    <div class="col-8">
-        <div class="col-12">
-            <img class="dat"
-                 src="https://img2.thuthuatphanmem.vn/uploads/2018/12/25/anh-gai-xinh-hotgirl-kim-khanh_012904504.jpg">
-        </div>
-        <div class="col-12 d-flex justify-content-center anhdaidien">
-            <img class="show_avatar"
-                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEloLDavBaMa2-tbPhI8P15_HEqjTOludhpBrpDrivxxuLhbiFaEGpXM4U0LEIFhwTsI8&usqp=CAU">
-        </div>
-        <div class="col-12 d-flex justify-content-center detbong">
-            <h2 ><span class="show_name">Lê Thị Đạt</span> (<span class="show_nick_name">Bống</span>)</h2>
-        </div>
-        <div class="col-12 d-flex justify-content-center detbong">
-            <p class="det det1">Anh Là Good Boy</p>
-        </div>
-        <div class="col-12 d-flex justify-content-center detbong">
-            <p class="det det2">uinhieu123@gmail.com</p>
-        </div>
-        <div class="col-12 d-flex justify-content-center detbong">
-            <p class="det">0388852709</p>
-        </div>
-    </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../Script/jquery.validate.min.js"></script>
 <script src="cloudinarycuadet.js"></script>
 
 </body>
