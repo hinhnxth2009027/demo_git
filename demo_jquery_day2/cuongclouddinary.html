@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Style/bootstrap.min.css">
+    <link rel="stylesheet" href="cuongclouddinary.css">
+</head>
+<body>
+<div class="container-fluid row ">
+    <div class="col-4">
+        <h1>Register</h1>
+        <form id="validate_form" action="#">
+            <input class="avatar" type="file">
+            <input class="cover_photo" type="file">
+            <div class="form-group">
+                <input name="name" class="form-control" type="text" placeholder="vui long nhap ten">
+                <input name="nickname" class="form-control" type="text" placeholder="vui long nhap biet danh">
+                <input name="story" class="form-control" type="text" placeholder="vui long nhap tieu su">
+                <input name="email" class="form-control" type="text" placeholder="vui long nhap email">
+                <input name="phone" class="form-control" type="text" placeholder="vui long nhap so dien thoai">
+            </div>
+            <div>
+                <p>chon avatar</p>
+                <p>chon cover photo</p>
+            </div>
+            <div class="row">
+                <div class="chonavatar">+</div>
+                <div class="choncover_photo">+</div>
+            </div>
+            <div class="form-group">
+                <button class="form-control btn btn-primary mt-4">Add</button>
+            </div>
+        </form>
+    </div>
+    <div class="col-8">
+        <div class="col-12">
+            <img class="anhnen" src="https://st.quantrimang.com/photos/image/2018/12/25/Anh-Anime-1.jpg" alt="">
+        </div>
+        <div class="col-12 d-flex justify-content-center anhdaidien">
+            <img class="show_avatar" src="https://hinhgaixinh.com/wp-content/uploads/2021/05/20210425-gam-kami-1-835x834.jpg" alt="">
+        </div>
+        <div class="col-12 d-flex justify-content-center tenanhdaidien">
+            <h2 ><span class="show_name">NguyenLinh</span> (<span class="show_nick_name">kool</span>)</h2>
+        </div>
+        <div class="col-12 d-flex justify-content-center tenanhdaidien">
+            <p class="show_story">Sinh ra trong gia dinh...</p>
+        </div>
+        <div class="col-12 d-flex justify-content-center tenanhdaidien">
+            <p class="show_email">cuong@gmail.com</p>
+        </div>
+        <div class="col-12 d-flex justify-content-center tenanhdaidien">
+            <p class="show_phone">0999.999.999</p>
+        </div>
+    </div>
+</div>
+<script src="../Script/bootstrap.min.js"></script>
+<script src="../Script/jquery.min.js"></script>
+<script src="../Script/jquery.validate.min.js"></script>
+<script src="cuongclouddinary.js"></script>
+</body>
+</html>
