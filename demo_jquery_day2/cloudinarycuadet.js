@@ -71,4 +71,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+
+
+
+
+    $('#validate').validate({
+        rules:{
+            name:{
+                required:true
+            }
+        }
+    })
+
+
+
+
+
+
 })
