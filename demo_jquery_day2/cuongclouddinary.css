@@ -4,28 +4,28 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.chon_avatar {
+.chonavatar{
     height: 100px;
     width: 100px;
-    border: black 1px solid;
-    font-size: 60px;
+    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    margin: 10px 2px 0 50px;
+    border: black 1px solid;
+    margin: 10px 2px 10px 40px;
     cursor: pointer;
 }
-.chon_cover_photo{
+.choncover_photo{
     height: 100px;
     width: 100px;
-    border: black 1px solid;
-    font-size: 60px;
+    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    margin: 10px 2px 0 50px;
+    border: black 1px solid;
+    margin: 10px 2px 10px 40px;
     cursor: pointer;
 }
 .avatar{
@@ -34,41 +34,41 @@
 .cover_photo{
     display: none;
 }
-p {
+p{
     display: inline;
-    margin-left: 40px;
+    margin-left: 30px;
 }
-input {
+input{
     margin-top: 10px;
 }
 .col-8{
     height: 800px;
     padding: 0!important;
 }
-.col-8>div {
+.col-8>div{
     padding: 0!important;
 }
-.dat {
+.anhnen{
     width: 100%;
     height: 350px;
     object-fit: cover;
-    border: #f65757 3px solid;
+    border: deeppink 5px solid;
 }
 .show_avatar{
     width: 200px;
-    height: 200px;
+    height:200px;
     object-fit: cover;
-    border-radius: 50%;
-    border: #f65757 3px solid;
+    border-radius:50%;
+    border: deeppink 5px solid;
 }
-.anhdaidien {
+.anhdaidien{
     transform: translateY(-100px);
 }
-.detbong {
+.tenanhdaidien{
     transform: translateY(-100px);
 }
-.det {
-    transform: translateX(-15px);
+.cuong{
+    transform: translateY(-15px);
 }
 .error{
     color: red;
